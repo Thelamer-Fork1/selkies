@@ -330,6 +330,17 @@ function AppsModal({ isOpen, onClose, t }) {
     );
   };
 
+  const handleLaunch = (appName) => {
+    console.log(`Launch app: ${appName}`);
+    window.postMessage(
+      {
+        type: "command",
+        value: `st ~/.local/bin/${appName}-pa`,
+      },
+      window.location.origin
+    );
+  };
+
   const filteredApps =
     appData?.include?.filter(
       (app) =>
@@ -384,6 +395,13 @@ function AppsModal({ isOpen, onClose, t }) {
                 <div className="app-action-buttons">
                   {isAppInstalled(selectedApp.name) ? (
                     <>
+                      <button
+                        onClick={() => handleLaunch(selectedApp.name)}
+                        className="app-action-button launch"
+                      >
+                        {t("appsModal.launchButton", "Launch")}{" "}
+                        {selectedApp.name}
+                      </button>
                       <button
                         onClick={() => handleUpdate(selectedApp.name)}
                         className="app-action-button update"
