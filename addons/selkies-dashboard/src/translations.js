@@ -129,6 +129,7 @@ const en = {
         installButton: "Install",
         updateButton: "Update",
         removeButton: "Remove",
+        launchButton: "Launch",
         installingMessage: "Simulating install for: {{appName}}",
         removingMessage: "Simulating removal for: {{appName}}",
         updatingMessage: "Simulating update for: {{appName}}",
@@ -273,6 +274,7 @@ const es = {
         installButton: "Instalar",
         updateButton: "Actualizar",
         removeButton: "Eliminar",
+        launchButton: "Lanzar",
         installingMessage: "Simulando instalación para: {{appName}}",
         removingMessage: "Simulando eliminación para: {{appName}}",
         updatingMessage: "Simulando actualización para: {{appName}}",
@@ -417,6 +419,7 @@ const zh = {
         installButton: "安装",
         updateButton: "更新",
         removeButton: "移除",
+        launchButton: "启动",
         installingMessage: "模拟安装: {{appName}}",
         removingMessage: "模拟移除: {{appName}}",
         updatingMessage: "模拟更新: {{appName}}",
@@ -561,6 +564,7 @@ const hi = {
         installButton: "इंस्टॉल करें",
         updateButton: "अपडेट करें",
         removeButton: "हटाएं",
+        launchButton: "शुरू करें",
         installingMessage: "इसके लिए इंस्टॉलेशन का अनुकरण किया जा रहा है: {{appName}}",
         removingMessage: "इसके लिए हटाने का अनुकरण किया जा रहा है: {{appName}}",
         updatingMessage: "इसके लिए अपडेट का अनुकरण किया जा रहा है: {{appName}}",
@@ -705,6 +709,7 @@ const pt = {
         installButton: "Instalar",
         updateButton: "Atualizar",
         removeButton: "Remover",
+        launchButton: "Lançar",
         installingMessage: "Simulando instalação para: {{appName}}",
         removingMessage: "Simulando remoção para: {{appName}}",
         updatingMessage: "Simulando atualização para: {{appName}}",
@@ -849,6 +854,7 @@ const fr = {
         installButton: "Installer",
         updateButton: "Mettre à jour",
         removeButton: "Supprimer",
+        launchButton: "Lancer",
         installingMessage: "Simulation de l'installation pour : {{appName}}",
         removingMessage: "Simulation de la suppression pour : {{appName}}",
         updatingMessage: "Simulation de la mise à jour pour : {{appName}}",
@@ -993,6 +999,7 @@ const ru = {
         installButton: "Установить",
         updateButton: "Обновить",
         removeButton: "Удалить",
+        launchButton: "Запустить",
         installingMessage: "Симуляция установки для: {{appName}}",
         removingMessage: "Симуляция удаления для: {{appName}}",
         updatingMessage: "Симуляция обновления для: {{appName}}",
@@ -1137,6 +1144,7 @@ const de = {
         installButton: "Installieren",
         updateButton: "Aktualisieren",
         removeButton: "Entfernen",
+        launchButton: "Starten",
         installingMessage: "Simulation der Installation für: {{appName}}",
         removingMessage: "Simulation der Entfernung für: {{appName}}",
         updatingMessage: "Simulation der Aktualisierung für: {{appName}}",
@@ -1281,6 +1289,7 @@ const tr = {
         installButton: "Yükle",
         updateButton: "Güncelle",
         removeButton: "Kaldır",
+        launchButton: "Başlat",
         installingMessage: "Şunun için yükleme simüle ediliyor: {{appName}}",
         removingMessage: "Şunun için kaldırma simüle ediliyor: {{appName}}",
         updatingMessage: "Şunun için güncelleme simüle ediliyor: {{appName}}",
@@ -1425,6 +1434,7 @@ const it = {
         installButton: "Installa",
         updateButton: "Aggiorna",
         removeButton: "Rimuovi",
+        launchButton: "Avvia",
         installingMessage: "Simulazione installazione per: {{appName}}",
         removingMessage: "Simulazione rimozione per: {{appName}}",
         updatingMessage: "Simulazione aggiornamento per: {{appName}}",
@@ -1569,6 +1579,7 @@ const nl = {
         installButton: "Installeren",
         updateButton: "Bijwerken",
         removeButton: "Verwijderen",
+        launchButton: "Starten",
         installingMessage: "Simulatie van installatie voor: {{appName}}",
         removingMessage: "Simulatie van verwijdering voor: {{appName}}",
         updatingMessage: "Simulatie van update voor: {{appName}}",
@@ -1713,6 +1724,7 @@ const ar = {
         installButton: "تثبيت",
         updateButton: "تحديث",
         removeButton: "إزالة",
+        launchButton: "تشغيل",
         installingMessage: "محاكاة التثبيت لـ: {{appName}}",
         removingMessage: "محاكاة الإزالة لـ: {{appName}}",
         updatingMessage: "محاكاة التحديث لـ: {{appName}}",
@@ -1857,6 +1869,7 @@ const ko = {
         installButton: "설치",
         updateButton: "업데이트",
         removeButton: "제거",
+        launchButton: "시작",
         installingMessage: "{{appName}} 설치 시뮬레이션 중",
         removingMessage: "{{appName}} 제거 시뮬레이션 중",
         updatingMessage: "{{appName}} 업데이트 시뮬레이션 중",
@@ -2001,6 +2014,7 @@ const ja = {
         installButton: "インストール",
         updateButton: "更新",
         removeButton: "削除",
+        launchButton: "起動",
         installingMessage: "{{appName}} のインストールをシミュレートしています",
         removingMessage: "{{appName}} の削除をシミュレートしています",
         updatingMessage: "{{appName}} の更新をシミュレートしています",
@@ -2145,6 +2159,7 @@ const vi = {
         installButton: "Cài đặt",
         updateButton: "Cập nhật",
         removeButton: "Gỡ bỏ",
+        launchButton: "Khởi động",
         installingMessage: "Mô phỏng cài đặt cho: {{appName}}",
         removingMessage: "Mô phỏng gỡ bỏ cho: {{appName}}",
         updatingMessage: "Mô phỏng cập nhật cho: {{appName}}",
@@ -2289,6 +2304,7 @@ const th = {
         installButton: "ติดตั้ง",
         updateButton: "อัปเดต",
         removeButton: "ลบ",
+        launchButton: "เริ่ม",
         installingMessage: "กำลังจำลองการติดตั้งสำหรับ: {{appName}}",
         removingMessage: "กำลังจำลองการลบสำหรับ: {{appName}}",
         updatingMessage: "กำลังจำลองการอัปเดตสำหรับ: {{appName}}",
@@ -2433,6 +2449,7 @@ const fil = {
         installButton: "I-install",
         updateButton: "I-update",
         removeButton: "Alisin",
+        launchButton: "I-launch",
         installingMessage: "Sinusubukan ang pag-install para sa: {{appName}}",
         removingMessage: "Sinusubukan ang pag-alis para sa: {{appName}}",
         updatingMessage: "Sinusubukan ang pag-update para sa: {{appName}}",
@@ -2531,7 +2548,6 @@ export const getTranslator = (langCode = 'en') => {
         if (typeof text === 'string') {
             return simpleInterpolate(text, variables);
         }
-
         // If key wasn't found anywhere or isn't a string, return the key itself as an indicator
         console.warn(`Translation key not found or invalid: ${key}`);
         return key;
@@ -2542,3 +2558,4 @@ export const getTranslator = (langCode = 'en') => {
 
     return { t, raw };
 };
+
